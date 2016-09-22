@@ -1,3 +1,23 @@
-<p>
-  home works!
-</p>
+<br>
+<br>
+<div class="container">
+
+
+
+
+	<div (click)="showVideo = !showVideo" *ngIf="!showVideo" class="valign-wrapper center-align banner">
+		<div class="icon"><i class="fa fa-youtube-play" aria-hidden="true"></i></div>
+	</div>
+	<div *ngIf="showVideo" (click)="showVideo = !showVideo">
+		<div class="right" ><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+		<div class="video-container">
+			<iframe src="https://www.youtube.com/embed/9hQzlvfpH6A?autoplay=1&autohide=1&rel=0&showinfo=0&theme=light&wmode=transparent" frameborder="0" allowfullscreen wmode="Opaque"></iframe>
+		</div>		
+	</div>
+
+
+	<p>The Robot Petting Zoo (RPZ) program engages students and educators in friendly making, coding, and design with a creative twist on the traditional hackathon. During an RPZ Makeathon, student groups create animatronic animals while learning empathic design thinking, teamwork, and engineering using cardboard, robotics kits, code, and craft supplies. They then bring their animals together for a Robot Petting Zoo Showcase where the public, and especially young children, can interact with them.</p>
+	<p>We’re transforming robotics education by engaging the disengaged, breaking stereotypes about who can be computer scientists, engineers, and technology innovators, and attracting more people into creative and technical learning in a more accessible, friendly way.</p>			
+	
+
+</div>

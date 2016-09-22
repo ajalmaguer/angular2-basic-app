@@ -1,19 +1,14 @@
-<div>
-	<ul>
-		<li ><a [routerLink]="['']">home</a></li>
-		<li ><a [routerLink]="['about']">about</a></li>
-	</ul>
-</div>
-
 <nav>
-	<div class="nav-wrapper">
-		<a href="#!" class="brand-logo">Logo</a>
-		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	<div class="nav-wrapper white">
+		<a (click)="goTo([''])" class="brand-logo pointer">RPZ Makeathon</a>
+		<a data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 		<ul class="right hide-on-med-and-down">
-			<li><a (click)="goTo([''])">Mobile</a></li>
+			<li><a (click)="goTo([''])">Home</a></li>
+			<li><a (click)="goTo(['about'])">About</a></li>
 		</ul>
 		<ul class="side-nav" id="mobile-demo">
-
+			<li><a (click)="goTo([''])">Home</a></li>
+			<li><a (click)="goTo(['about'])">About</a></li>
 		</ul>
 	</div>
 </nav>

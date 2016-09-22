@@ -1,0 +1,38 @@
+.banner {
+	height:600px;
+	background-image: url("rpz.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	cursor: pointer;
+	font-size: 5em;
+}
+
+.banner:hover {
+	font-size: 5.5em;
+}
+
+@media (max-width: 600px) {
+	.banner {
+		height: 300px !important;
+	}
+}
+
+@media (max-width: 992px) {
+	.banner {
+		height: 450px;
+	}
+}
+
+.icon {
+	width: 100%;
+	text-align: center;
+}
+
+.fa-times-circle {
+	font-size: 2em;
+}
+
+.right {
+	margin-top: -30px;
+}
