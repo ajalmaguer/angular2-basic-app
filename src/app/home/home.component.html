@@ -5,8 +5,11 @@
 
 
 
-	<div (click)="showVideo = !showVideo" *ngIf="!showVideo" class="valign-wrapper center-align banner">
-		<div class="icon"><i class="fa fa-youtube-play" aria-hidden="true"></i></div>
+	<div (click)="showVideo = !showVideo" *ngIf="!showVideo" class="banner">
+		<div class="bannerBtn">
+			<button class="icon btn-floating btn-large waves-effect waves-light red darken-3"><i class="fa fa-play" aria-hidden="true"></i></button>
+		</div>
+		<div><img src="rpz.png" class="responsive-img"></div>
 	</div>
 	<div *ngIf="showVideo" (click)="showVideo = !showVideo">
 		<div class="right" ><i class="fa fa-times-circle" aria-hidden="true"></i></div>

@@ -1,32 +1,18 @@
 .banner {
-	height:600px;
-	background-image: url("rpz.png");
-	background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center;
+	position: relative;
 	cursor: pointer;
-	font-size: 5em;
 }
 
-.banner:hover {
-	font-size: 5.5em;
-}
-
-@media (max-width: 600px) {
-	.banner {
-		height: 300px !important;
-	}
-}
-
-@media (max-width: 992px) {
-	.banner {
-		height: 450px;
-	}
-}
-
-.icon {
-	width: 100%;
-	text-align: center;
+.bannerBtn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    text-align: center;
 }
 
 .fa-times-circle {
@@ -35,4 +21,5 @@
 
 .right {
 	margin-top: -30px;
+	cursor: pointer;
 }
