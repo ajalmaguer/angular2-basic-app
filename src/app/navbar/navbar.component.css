@@ -1,3 +1,21 @@
 a {
 	color: black;
 }
+
+.pointer {
+	cursor: pointer;
+}
+
+ul.side-nav li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 160px;
+}
+
+li {
+	color: black;
+}
+
+ul.collapsible li div.collapsible-body ul li {
+	padding-left: 40px;
+}
