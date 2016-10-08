@@ -13,11 +13,12 @@
 			<li >
 				<ul class="collapsible collapsible-accordion" data-collapsible="accordion">
 					<li>
-						<a class="collapsible-header waves-effect waves-grey">First</a>
+						<a class="collapsible-header waves-effect waves-grey">Planning</a>
 						<div class="collapsible-body">
 							<ul>
-								<li>ASDFASDF</li>
-								<li>ZXCVZXCV</li>
+								<li><a [routerLink]="['/planning', 'materials']">Materials</a></li>
+								<li><a [routerLink]="['planning', 'sample-app']">Sample Application for Participants</a></li>
+								<li><a [routerLink]="['planning', 'sample-schedule']">Sample Schedule</a></li>
 							</ul>
 						</div>
 					</li>
@@ -49,8 +50,8 @@
 
 <ul id="planning" class="dropdown-content">
 	<li><a [routerLink]="['planning', 'materials']">Materials</a></li>
-	<li><a [routerLink]="['about']">Sample Application for Participants</a></li>
-	<li><a [routerLink]="['about']">Sample Schedule</a></li>
+	<li><a [routerLink]="['planning', 'sample-app']">Sample Application for Participants</a></li>
+	<li><a [routerLink]="['planning', 'sample-schedule']">Sample Schedule</a></li>
 </ul>
 
 

@@ -12,10 +12,27 @@ ul.side-nav li.logo {
     margin-bottom: 160px;
 }
 
+.dropdown-content li>a, .dropdown-content li>span {
+	color: black;
+}
+
 li {
 	color: black;
 }
 
 ul.collapsible li div.collapsible-body ul li {
 	padding-left: 40px;
+}
+
+ul.collapsible li div.collapsible-body ul li:hover {
+	background-color: #E8E8E8;
+}
+
+ul.collapsible li div.collapsible-body ul li a {
+	font-weight: normal;
+	padding-left: 0px;
+}
+
+ul.collapsible li div.collapsible-body ul li a:hover {
+	background-color: transparent;
 }
